@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9082447-F343-536A-E163-EF02CFC79B70" name="T_RHSTU_EMAIL_PACIENTE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:28:09 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_EMAIL" id="4770A155-A73E-8A74-A571-5D76EFBBA93F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:28:50 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="D1F494CC-5639-AFD8-AA46-D8AF8C3B3676">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:28:50 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_EMAIL" id="A0159405-20CB-3330-3744-66C681A1489E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:28:50 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_EMAIL" id="9447EB0C-C0F3-4BE1-2860-5026B6D8D5D8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:28:50 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_EMAIL" id="EA37B5A8-EC93-D26A-E08E-E96BC4830F41">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:28:51 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71459350-ABCD-C5A0-0AC5-7B5788ED3D87" name="T_RHSTU_EMAIL_PACIENTE PK">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:31:33 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4770A155-A73E-8A74-A571-5D76EFBBA93F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C302CA8-EA0D-F267-5F04-0F7B5FA0A30C" name="T_RHSTU_ENDERECO_PACIENTE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:34:54 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO" id="A0244209-12FC-611D-56D7-F6717786AFEF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:23 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="BAB569E6-98AC-294E-8169-D0227F2EB07D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:23 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CEP" id="7068FEE0-4CFF-C942-1A4C-1E2A392D8460">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:23 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_LOGRADOURO" id="B6229FCD-BA53-7922-2980-DC79AF6A85E8">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:24 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_LOGRADOURO" id="6868B7E2-BF65-276F-C509-FBF0082B269D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:24 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_COMPLEMENTO_NUMERO" id="B697C643-D89B-CF99-3AA5-92706F0DE51F">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:24 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PONTO_REFERENCIA" id="FB653CED-CED9-7164-6D03-BFE55284AA6B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:24 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="C2F21E27-303F-4B6F-364E-EF1C80B7791E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:24 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="6C3F31C2-856D-F36D-925F-983231F46985">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:25 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTADO" id="A21F4179-9D46-5BD9-3491-9E2262D51FC6">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:25 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_ESTADO" id="B8C2CBE0-D5BE-C0AF-4E6C-B5BB438DF6C2">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:35:26 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="048C1745-FBB7-FB28-83EB-391AAE4C9BD1" name="T_RHSTU_ENDERECO_PACIENTE PK">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:37:55 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0244209-12FC-611D-56D7-F6717786AFEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

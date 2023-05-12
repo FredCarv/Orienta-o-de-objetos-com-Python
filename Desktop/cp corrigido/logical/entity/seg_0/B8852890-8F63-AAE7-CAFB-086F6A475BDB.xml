@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8852890-8F63-AAE7-CAFB-086F6A475BDB" name="T_RHSTU_TIPO_CONTATO">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:38:27 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TIPO_CONTATO" id="90E3AD64-C852-7CCE-3084-7E548D1AEA09">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:38:57 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_TIPO_CONTATO" id="03FA9DF0-66EF-9853-53C7-D6A6B5E2E3C3">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:38:57 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="5D85B075-371C-E9A2-A005-94C2FECBD32D">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:38:57 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="D93B3577-337A-6247-CED8-350DD030D186">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:38:57 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6B3D66E-4E7C-1585-E1C2-A18ADC7EC91A" name="T_RHSTU_TIPO_CONTATO PK">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:39:42 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90E3AD64-C852-7CCE-3084-7E548D1AEA09</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

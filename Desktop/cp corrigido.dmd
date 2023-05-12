@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="cp corrigido" id="53384F6A-BCCE-51D4-43A9-9008803BD32C" version="3.5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:00:13 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>53384F6A-BCCE-51D4-43A9-9008803BD32C</designId>
+</OSDM_Design>

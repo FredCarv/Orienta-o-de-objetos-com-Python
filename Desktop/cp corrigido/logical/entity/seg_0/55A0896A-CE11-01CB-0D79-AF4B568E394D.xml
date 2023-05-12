@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55A0896A-CE11-01CB-0D79-AF4B568E394D" name="T_RHSTU_CONTATO_PACIENTE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:32:43 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PACIENTE" id="AAC986E5-8B7F-2D62-DAE1-D684E03F987A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:33:16 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CONTATO" id="AE7BC600-5381-CC35-292D-A09B85895C4E">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:33:16 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TIPO_CONTATO" id="9DA3BEC5-4D45-CC73-08A0-F2FC792BA9CF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:33:16 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CONTATO" id="CB6E3545-2924-8B8D-FC09-42FEB72D3895">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:33:16 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDI" id="BF684A28-8929-8722-A7C0-33ACB086E5C6">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:33:17 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDD" id="E75A8B7C-49EB-1F1C-2E7D-57558C534FEF">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:33:17 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="ECD9B47D-383B-6748-F671-84FC84E774C4">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:33:17 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE102386-1CFB-F258-F94E-BC2183866623" name="T_RHSTU_CONTATO_PACIENTE PK">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:34:26 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE7BC600-5381-CC35-292D-A09B85895C4E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

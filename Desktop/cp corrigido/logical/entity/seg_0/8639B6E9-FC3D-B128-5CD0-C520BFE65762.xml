@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8639B6E9-FC3D-B128-5CD0-C520BFE65762" name="T_RHSTU_TELEFONE_PACIENTE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:26:09 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PACIENTE" id="3E890AA6-8256-9E3F-0695-C166E48AFE25">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:26:34 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TELEFONE" id="A781D1E7-3B24-8B48-0C33-4150106AD664">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:26:34 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDI" id="A82BA0B8-5CF7-97CC-166B-88E3A03840A5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:26:35 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDD" id="C6578BEA-B8CB-7899-038A-FC99E057B998">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:26:35 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="AB93D56F-4FD1-0E7B-FFA1-9D654B088FCA">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:26:35 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_TELEFONE" id="6B33D181-3150-3DFA-C9FC-AFD352519D05">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:26:35 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_TELEFONE" id="2CF67D16-7E35-7485-E62D-E78259103AF5">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:26:35 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25C5A237-6DB8-61AA-BA1C-F9A213040DA8" name="T_RHSTU_TELEFONE_PACIENTE PK">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:32:03 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A781D1E7-3B24-8B48-0C33-4150106AD664</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

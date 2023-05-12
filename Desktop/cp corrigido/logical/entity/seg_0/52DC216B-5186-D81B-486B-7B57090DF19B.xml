@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="52DC216B-5186-D81B-486B-7B57090DF19B" name="T_RHSTU_PLANO_SAUDE">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:22:34 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PLANO_SAUDE" id="04A85937-8BA7-B42F-DD2B-0CC7C11B15A1">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:23:16 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_RAZAO_SOCIAL" id="D2F80488-E189-78F3-30FD-58D29AF649D0">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:23:16 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FANTASIA_PLANO_SAUDE" id="E5E61481-05B5-96A2-4FBC-45699539256A">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:23:16 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PLANO_SAUDE" id="EC85D687-EA23-73BB-5A0B-228B7439E528">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:23:16 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CNPJ" id="36E7B416-EB04-B453-F323-8FD3920DC164">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:23:16 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CONTATO" id="C3D29B66-7982-709F-80AA-C84F2D97558B">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:23:17 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_TELEFONE" id="DE00B20C-6360-AA68-E9EB-791344F1E8ED">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:23:17 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="FFEE0F39-6B74-3E9E-791D-E6EA44CB83BC">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:23:17 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_FIM" id="4F8A721D-7857-F4EC-6557-BC6D829D3542">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:23:17 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10A99837-ACFD-B350-2856-C7919E2452F7" name="T_RHSTU_PLANO_SAUDE PK">
+<createdBy>User</createdBy>
+<createdTime>2023-05-12 03:25:10 UTC</createdTime>
+<ownerDesignName>cp corrigido</ownerDesignName>
+<engineerTo>
+<item key="0C0572D6-9121-400D-B7CC-0F78314F4032" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04A85937-8BA7-B42F-DD2B-0CC7C11B15A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
